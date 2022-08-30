@@ -5,7 +5,7 @@ git add . // add all documents from folder on git
 git commit -m "commits name" // add code version
 git config --global user.email "email...@email.com" // add email used on git
 git config --global user.name "author" // add the author of that version
-git push // upload code changes (copy code git push --set... and execute command)
+git push // upload code changes on cloud (copy code git push --set... and execute command)
 git remote add origin https://github.com/repository // indicates repository of versões on github
 get reflog // check code versions
 get reset --hard num versionnumbercode // change to desired version
@@ -19,4 +19,4 @@ git checkout master
 git merge staging
 git push
 
-git checkout -b newBranchName masterBranch // Creat a branch from the main branch
+git checkout -b newBranchName masterBranch // Create a branch from the main branch
