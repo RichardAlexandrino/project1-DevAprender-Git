@@ -1,4 +1,6 @@
-gi init // initialize a new repository
+// to open git: right-click on the folders where the changes will be made
+
+git init // initialize a new repository
 git status // check repository status
 git add "mycode..." // add code on repository
 git add . // add all archives from folder on the next commit
@@ -7,9 +9,9 @@ git config --global user.email "email...@email.com" // add email used on git
 git config --global user.name "author" // add the author of that version
 git push // upload code changes on active cloud (copy code git push --set... and execute command)
 git remote add origin https://github.com/repository // indicates repository of versões on github
-get reflog // check code versions
-get reset --hard num versionnumbercode // change to desired version
-get branch // see available branches and used branch
+git reflog // check code versions
+git reset --hard num versionnumbercode // change to desired version
+git branch // see available branches and used branch
 git branch branchsname // create new branch (used branch is greend)
 git checkout branchname // switche to other branch banchname
 git pull // upload all the lastest updates from the active branch
